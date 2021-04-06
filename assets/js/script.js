@@ -1,7 +1,15 @@
 function init() {
     
-    console.log('hello world');
+    new Vue({
+
+        el: '#app',
+
+        data: {
+
+            'title': 'Hello Vue!',
+        }
+    });
 }
 
 
-document.addEventListener("DOMContentLoaded",init());
+document.addEventListener("DOMContentLoaded", init);
