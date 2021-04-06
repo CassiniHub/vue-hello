@@ -7,6 +7,7 @@ function init() {
         data: {
 
             'title': 'Hello Vue!',
+            'img': 'assets/img/06_04_2021.png'
         }
     });
 }
